@@ -17,6 +17,13 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@dr-kobros/react-webfont-loader@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@dr-kobros/react-webfont-loader/-/react-webfont-loader-8.0.0.tgz#1e000be944d846cc9101e656cdcf2521e859e066"
+  dependencies:
+    prop-types "^15.5.8"
+    webfontloader "^1.6.27"
+
 "@emotion/hash@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.6.2.tgz#4cfe6b57e251aa7f254750ddac7c449ff99c476f"
@@ -5741,7 +5748,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -6382,6 +6389,10 @@ sane@~1.6.0:
     minimist "^1.1.1"
     walker "~1.0.5"
     watch "~0.10.0"
+
+sanitize.scss@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.scss/-/sanitize.scss-1.0.0.tgz#8079da442b28500d994c882e8f7d196b6466f95f"
 
 sass-graph@^2.1.1, sass-graph@^2.2.4:
   version "2.2.4"
@@ -7383,6 +7394,10 @@ wbuf@^1.1.0, wbuf@^1.7.2:
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"
   dependencies:
     minimalistic-assert "^1.0.0"
+
+webfontloader@^1.6.27:
+  version "1.6.28"
+  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
