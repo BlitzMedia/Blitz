@@ -239,6 +239,19 @@ textarea,
   [hidden][aria-hidden='false']:focus {
     clip: auto; }
 
+@font-face {
+  font-family: 'Rama';
+  src: url("./styles/fonts/RamaGothicC_Regular-webfont.eot");
+  src: url("./styles/fonts/RamaGothicC_Regular-webfont.eot#iefix") format("embedded-opentype"), url("./styles/fonts/RamaGothicC_Regular-webfont.ttf") format("truetype"), url("./styles/fonts/RamaGothicC_Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'Dosis', Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, .Rama {
+  font-family: "Rama", Impact, Helvetica, Arial, sans-serif; }
+
 body {
   height: 100vh; }
 

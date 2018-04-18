@@ -1,0 +1,10 @@
+// Rama typeface
+@font-face{
+    font-family:'Rama';
+    src:url('./styles/fonts/RamaGothicC_Regular-webfont.eot');
+    src:url('./styles/fonts/RamaGothicC_Regular-webfont.eot#iefix') format('embedded-opentype'),
+        url('./styles/fonts/RamaGothicC_Regular-webfont.ttf') format('truetype'),
+        url('./styles/fonts/RamaGothicC_Regular-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
