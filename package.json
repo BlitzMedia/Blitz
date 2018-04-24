@@ -9,8 +9,10 @@
     "npm-run-all": "^4.1.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-emotion": "^9.1.2",
     "react-scripts": "1.1.4",
-    "sanitize.scss": "^1.0.0"
+    "sanitize.scss": "^1.0.0",
+    "shevyjs": "^1.1.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/styles/App.scss -o src/",
