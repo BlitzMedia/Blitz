@@ -34,6 +34,7 @@ export const Div = styled('div')`
 
 export const Heading = styled('h1')`
   font-size: ${fontSize};
+  font-weight: lighter;
   line-height: ${lineHeight};
   margin-bottom: ${lhs(.2)};
   letter-spacing: .01em;
