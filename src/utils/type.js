@@ -1,5 +1,9 @@
-import styled, { css } from 'react-emotion'
+import styled, { css, injectGlobal } from 'react-emotion'
 import Shevy from 'shevyjs'
+
+injectGlobal`
+  a, a:visited { color: inherit; }
+`
 
 const shevyOptions = {
   baseFontSize: '32px',
@@ -62,7 +66,6 @@ export const bordered = css`
 `
 
 
-
 export const Blitz = styled('main')`
   width: 100vw;
   height: 100vh;
@@ -97,4 +100,15 @@ export const SubHeading = styled('h4')`
   margin-bottom: ${lhs(.2)};
   letter-spacing: .01em;
   text-transform: uppercase;
+`
+
+export const Nav = styled('nav')`
+  * + * { margin-left: ${bs(.5)} }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+export const BlitzLink = styled('h5')`
+
 `

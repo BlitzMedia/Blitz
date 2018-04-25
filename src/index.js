@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import WebfontLoader from '@dr-kobros/react-webfont-loader';
@@ -21,7 +22,9 @@ const fontCallback = status => {
 
 ReactDOM.render(
   <WebfontLoader config={fontConfig} onStatus={fontCallback}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
   </WebfontLoader>,
   document.getElementById('root')
 );
