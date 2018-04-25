@@ -5,6 +5,8 @@ injectGlobal`
   a, a:visited { color: inherit; }
 `
 
+// https://emotion.sh/docs/emotion-theming
+
 const shevyOptions = {
   baseFontSize: '32px',
   baseLineHeight: 1.5,
@@ -107,8 +109,4 @@ export const Nav = styled('nav')`
   display: flex;
   align-items: center;
   justify-content: center;
-`
-
-export const BlitzLink = styled('h5')`
-
 `

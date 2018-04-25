@@ -5,7 +5,7 @@ import logo from './things/Blitz.png'
 import './App.css'
 
 // Other components
-import { Blitz, Heading, SubHeading, Nav, BlitzLink, fullyCentered, Column, bordered } from './utils/type'
+import { Blitz, Heading, SubHeading, Nav, BlitzLink, fullyCentered, Column, bordered } from './utils/styles'
 
 const Home = () => (
   <TypeWriter typing={1} initDelay={0}>
