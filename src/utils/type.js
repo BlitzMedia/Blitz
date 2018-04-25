@@ -17,25 +17,84 @@ const {
   baseSpacing: bs,
   lineHeightSpacing: lhs,
   h1: {
-    fontSize,
-    lineHeight,
-    marginBottom
+    fontSize: fontSizeH1,
+    lineHeight: lineHeightH1
+  },
+  h2: {
+    fontSize: fontSizeH2,
+    lineHeight: lineHeightH2
+  },
+  h3: {
+    fontSize: fontSizeH3,
+    lineHeight: lineHeightH3
+  },
+  h4: {
+    fontSize: fontSizeH4,
+    lineHeight: lineHeightH4
+  },
+  h5: {
+    fontSize: fontSizeH5,
+    lineHeight: lineHeightH5
+  },
+  h6: {
+    fontSize: fontSizeH6,
+    lineHeight: lineHeightH6
   }
 } = shevy
 
-export const Wrap = styled('div')`
-  padding: ${bs()};
-  margin-bottom: ${bs(2)};
+const blitzTheme = {
+  colors: {
+    blitzGold: 'rgb(176, 151, 109)'
+  }
+}
+
+export const fullyCentered = css`
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `
 
-export const Div = styled('div')`
+
+export const bordered = css`
+	display: inline-block;
+  border-bottom: 1px solid;
+`
+
+
+
+export const Blitz = styled('main')`
+  width: 100vw;
+  height: 100vh;
+  background: ${blitzTheme.colors.blitzGold};
+  color: white;
+
   padding: ${bs()};
+`
+
+export const Column = styled('section')`
+  display: flex;
+  flex-direction: column;
+`
+
+export const column = css`
+	display: flex;
+  flex-direction: column;
 `
 
 export const Heading = styled('h1')`
-  font-size: ${fontSize};
+  font-size: ${fontSizeH1};
   font-weight: lighter;
-  line-height: ${lineHeight};
+  line-height: ${lineHeightH1};
   margin-bottom: ${lhs(.2)};
   letter-spacing: .01em;
+`
+
+export const SubHeading = styled('h4')`
+  font-size: ${fontSizeH4};
+  font-weight: lighter;
+  line-height: ${lineHeightH4};
+  margin-bottom: ${lhs(.2)};
+  letter-spacing: .01em;
+  text-transform: uppercase;
 `
